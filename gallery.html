@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection - Atelier Noir</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">ATELIER NOIR</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html" class="active">Collection</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Hero Section -->
+    <section class="hero" style="height: 50vh; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1558769132-cb1aea1f1c1f?w=1600&h=900&fit=crop'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1>Our Collection</h1>
+            <p>Curated pieces for the modern wardrobe</p>
+        </div>
+    </section>
+
+    <!-- Gallery Content -->
+    <section class="container">
+        <!-- Gallery Introduction -->
+        <div class="gallery-intro">
+            <h2>Discover Timeless Elegance</h2>
+            <p style="max-width: 800px; margin: 0 auto;">
+                Explore our carefully curated collection of premium garments and accessories. Each piece has been 
+                selected for its exceptional quality, timeless design, and versatility. From tailored essentials 
+                to statement pieces, find everything you need to build a sophisticated wardrobe.
+            </p>
+        </div>
+
+        <!-- Gallery Grid - Image Display -->
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400&h=600&fit=crop" alt="Classic Wool Coat" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400&h=600&fit=crop" alt="Silk Blouse" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=600&fit=crop" alt="Leather Ankle Boots" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=600&fit=crop" alt="Cashmere Sweater" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=600&fit=crop" alt="Tailored Blazer" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop" alt="Wide-Leg Trousers" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=600&fit=crop" alt="Structured Handbag" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=600&fit=crop" alt="Merino Wool Dress" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=600&fit=crop" alt="Linen Shirt" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=600&fit=crop" alt="Designer Sunglasses" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1624222247344-550fb60583dd?w=400&h=600&fit=crop" alt="Leather Belt" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=400&h=600&fit=crop" alt="Cotton Scarf" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+
+        <!-- Catalog Section - TOPS -->
+        <div class="category-section">
+            <h2 class="category-title">Tops</h2>
+            
+            <table class="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Available Sizes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TOP-001</td>
+                        <td>Heritage Cashmere Knit</td>
+                        <td>100% cashmere turtleneck sweater with ribbed details. Soft, luxurious, and perfect for layering.</td>
+                        <td>$295</td>
+                        <td>XS, S, M, L, XL</td>
+                    </tr>
+                    <tr>
+                        <td>TOP-002</td>
+                        <td>Silk Evening Blouse</td>
+                        <td>Pure silk blouse with elegant draping and pearl buttons. Ideal for formal occasions.</td>
+                        <td>$245</td>
+                        <td>S, M, L</td>
+                    </tr>
+                    <tr>
+                        <td>TOP-003</td>
+                        <td>Oxford Essential Shirt</td>
+                        <td>Classic cotton-blend shirt with button-down collar. A wardrobe staple for any season.</td>
+                        <td>$165</td>
+                        <td>XS, S, M, L, XL, XXL</td>
+                    </tr>
+                    <tr>
+                        <td>TOP-004</td>
+                        <td>Merino Wool V-Neck</td>
+                        <td>Fine merino wool sweater with V-neck design. Breathable and temperature-regulating.</td>
+                        <td>$185</td>
+                        <td>S, M, L, XL</td>
+                    </tr>
+                    <tr>
+                        <td>TOP-005</td>
+                        <td>Linen Summer Shirt</td>
+                        <td>Lightweight European linen shirt with relaxed fit. Perfect for warm weather.</td>
+                        <td>$145</td>
+                        <td>XS, S, M, L, XL</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Size Chart for Tops -->
+            <div style="margin-top: 2rem;">
+                <h3 style="margin-bottom: 1rem;">Size Chart - Tops</h3>
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Bust (inches)</th>
+                            <th>Waist (inches)</th>
+                            <th>Length (inches)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XS</td>
+                            <td>32-34</td>
+                            <td>24-26</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>34-36</td>
+                            <td>26-28</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>36-38</td>
+                            <td>28-30</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>38-40</td>
+                            <td>30-32</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>40-42</td>
+                            <td>32-34</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>XXL</td>
+                            <td>42-44</td>
+                            <td>34-36</td>
+                            <td>29</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Catalog Section - BOTTOMS -->
+        <div class="category-section">
+            <h2 class="category-title">Bottoms</h2>
+            
+            <table class="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Available Sizes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BTM-001</td>
+                        <td>Classic Wool Trousers</td>
+                        <td>Tailored wool trousers with pleated front. Timeless design with impeccable fit.</td>
+                        <td>$225</td>
+                        <td>26, 28, 30, 32, 34, 36</td>
+                    </tr>
+                    <tr>
+                        <td>BTM-002</td>
+                        <td>Wide-Leg Palazzo Pants</td>
+                        <td>Flowing palazzo pants in premium crepe fabric. Comfortable and elegant.</td>
+                        <td>$195</td>
+                        <td>XS, S, M, L, XL</td>
+                    </tr>
+                    <tr>
+                        <td>BTM-003</td>
+                        <td>High-Waist Denim</td>
+                        <td>Japanese selvedge denim with high-rise fit. Classic five-pocket styling.</td>
+                        <td>$215</td>
+                        <td>25, 26, 27, 28, 29, 30, 31, 32</td>
+                    </tr>
+                    <tr>
+                        <td>BTM-004</td>
+                        <td>Tailored Culottes</td>
+                        <td>Cropped wide-leg trousers in Italian wool blend. Modern and sophisticated.</td>
+                        <td>$205</td>
+                        <td>S, M, L, XL</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Size Chart for Bottoms -->
+            <div style="margin-top: 2rem;">
+                <h3 style="margin-bottom: 1rem;">Size Chart - Bottoms</h3>
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Waist (inches)</th>
+                            <th>Hip (inches)</th>
+                            <th>Inseam (inches)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XS / 25-26</td>
+                            <td>24-26</td>
+                            <td>34-36</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>S / 27-28</td>
+                            <td>26-28</td>
+                            <td>36-38</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>M / 29-30</td>
+                            <td>28-30</td>
+                            <td>38-40</td>
+                            <td>31</td>
+                        </tr>
+                        <tr>
+                            <td>L / 31-32</td>
+                            <td>30-32</td>
+                            <td>40-42</td>
+                            <td>31</td>
+                        </tr>
+                        <tr>
+                            <td>XL / 33-34</td>
+                            <td>32-34</td>
+                            <td>42-44</td>
+                            <td>32</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Catalog Section - DRESSES -->
+        <div class="category-section">
+            <h2 class="category-title">Dresses</h2>
+            
+            <table class="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Available Sizes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DRS-001</td>
+                        <td>Merino Wool Dress</td>
+                        <td>Elegant midi dress in fine merino wool. Features subtle pleating and three-quarter sleeves.</td>
+                        <td>$325</td>
+                        <td>XS, S, M, L, XL</td>
+                    </tr>
+                    <tr>
+                        <td>DRS-002</td>
+                        <td>Silk Evening Gown</td>
+                        <td>Floor-length silk gown with delicate beading. Perfect for formal events.</td>
+                        <td>$685</td>
+                        <td>S, M, L</td>
+                    </tr>
+                    <tr>
+                        <td>DRS-003</td>
+                        <td>Cotton Day Dress</td>
+                        <td>Comfortable cotton dress with A-line silhouette. Versatile piece for everyday elegance.</td>
+                        <td>$175</td>
+                        <td>XS, S, M, L, XL, XXL</td>
+                    </tr>
+                    <tr>
+                        <td>DRS-004</td>
+                        <td>Wrap Dress - Printed</td>
+                        <td>Classic wrap dress in exclusive print. Flattering fit with adjustable tie waist.</td>
+                        <td>$245</td>
+                        <td>S, M, L, XL</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Size Chart for Dresses -->
+            <div style="margin-top: 2rem;">
+                <h3 style="margin-bottom: 1rem;">Size Chart - Dresses</h3>
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Bust (inches)</th>
+                            <th>Waist (inches)</th>
+                            <th>Hip (inches)</th>
+                            <th>Length (inches)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XS</td>
+                            <td>32-34</td>
+                            <td>24-26</td>
+                            <td>34-36</td>
+                            <td>38</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>34-36</td>
+                            <td>26-28</td>
+                            <td>36-38</td>
+                            <td>39</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>36-38</td>
+                            <td>28-30</td>
+                            <td>38-40</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>38-40</td>
+                            <td>30-32</td>
+                            <td>40-42</td>
+                            <td>41</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>40-42</td>
+                            <td>32-34</td>
+                            <td>42-44</td>
+                            <td>42</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Catalog Section - ACCESSORIES -->
+        <div class="category-section">
+            <h2 class="category-title">Accessories</h2>
+            
+            <table class="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Available Sizes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ACC-001</td>
+                        <td>Milan Leather Tote</td>
+                        <td>Structured leather tote bag with interior pockets. Handcrafted in Italy.</td>
+                        <td>$395</td>
+                        <td>One Size</td>
+                    </tr>
+                    <tr>
+                        <td>ACC-002</td>
+                        <td>Cashmere Scarf</td>
+                        <td>Luxurious cashmere scarf in classic neutral tones. Soft and warm.</td>
+                        <td>$145</td>
+                        <td>One Size (70" x 28")</td>
+                    </tr>
+                    <tr>
+                        <td>ACC-003</td>
+                        <td>Leather Belt</td>
+                        <td>Full-grain leather belt with polished buckle. Available in black and cognac.</td>
+                        <td>$95</td>
+                        <td>S, M, L, XL</td>
+                    </tr>
+                    <tr>
+                        <td>ACC-004</td>
+                        <td>Designer Sunglasses</td>
+                        <td>Vintage-inspired sunglasses with UV protection. Acetate frames.</td>
+                        <td>$225</td>
+                        <td>One Size</td>
+                    </tr>
+                    <tr>
+                        <td>ACC-005</td>
+                        <td>Silk Hair Scarf</td>
+                        <td>100% silk scarf with hand-rolled edges. Multiple styling options.</td>
+                        <td>$65</td>
+                        <td>One Size (35" x 35")</td>
+                    </tr>
+                    <tr>
+                        <td>ACC-006</td>
+                        <td>Leather Gloves</td>
+                        <td>Supple lambskin leather gloves with cashmere lining. Perfect winter accessory.</td>
+                        <td>$185</td>
+                        <td>XS, S, M, L</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Size Chart for Accessories -->
+            <div style="margin-top: 2rem;">
+                <h3 style="margin-bottom: 1rem;">Size Chart - Accessories</h3>
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Item Type</th>
+                            <th>Size</th>
+                            <th>Measurements</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Belt - S</td>
+                            <td>Small</td>
+                            <td>28-30 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Belt - M</td>
+                            <td>Medium</td>
+                            <td>30-34 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Belt - L</td>
+                            <td>Large</td>
+                            <td>34-38 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Belt - XL</td>
+                            <td>Extra Large</td>
+                            <td>38-42 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Gloves - XS</td>
+                            <td>Extra Small</td>
+                            <td>6-6.5 inches (hand circumference)</td>
+                        </tr>
+                        <tr>
+                            <td>Gloves - S</td>
+                            <td>Small</td>
+                            <td>6.5-7 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Gloves - M</td>
+                            <td>Medium</td>
+                            <td>7-7.5 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Gloves - L</td>
+                            <td>Large</td>
+                            <td>7.5-8 inches</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="section" style="text-align: center; margin-top: 4rem; padding: 4rem; background-color: white; border: 1px solid var(--border-color);">
+            <h2>Need Assistance?</h2>
+            <p style="max-width: 650px; margin: 1rem auto;">
+                Our style consultants are here to help you find the perfect pieces for your wardrobe. 
+                Contact us for personalized recommendations and sizing advice.
+            </p>
+            <a href="contact.html" class="cta-button" style="margin-top: 1.5rem; display: inline-block;">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <!-- About Column -->
+            <div class="footer-section">
+                <h3>Atelier Noir</h3>
+                <p>
+                    Timeless fashion for the discerning individual. Quality craftsmanship meets contemporary design 
+                    in every piece we curate.
+                </p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Collection</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Service Column -->
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Information</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Care Instructions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>
+                    <strong>Address:</strong><br>
+                    123 Fashion Avenue<br>
+                    New York, NY 10001
+                </p>
+                <p>
+                    <strong>Phone:</strong><br>
+                    +1 (555) 123-4567
+                </p>
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0b62656d644b6a7f6e67626e796564627925686466">[email&#160;protected]</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 At
